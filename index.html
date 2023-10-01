@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Interactive Quiz</title>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz Time</h1>
+      <div id="question-container" class="question-container">
+        <p id="question"></p>
+        <ul id="options" class="options-list">
+          <!-- Options will be filled dynamically using JavaScript -->
+        </ul>
+        <div id="results-graph" style="display: none">
+          <div id="total-bar" class="result-bar">
+            <div id="total-fill" class="fill"></div>
+            <span id="total-label" class="label"></span>
+          </div>
+          <div id="correct-bar" class="result-bar">
+            <div id="correct-fill" class="fill"></div>
+            <span id="correct-label" class="label"></span>
+          </div>
+          <div id="incorrect-bar" class="result-bar">
+            <div id="incorrect-fill" class="fill"></div>
+            <span id="incorrect-label" class="label"></span>
+          </div>
+          <div id="skipped-bar" class="result-bar">
+            <div id="skipped-fill" class="fill"></div>
+            <span id="skipped-label" class="label"></span>
+          </div>
+        </div>
+      </div>
+      <button id="next-button">Next</button>
+      <button id="skip-button">Skip</button>
+      <button id="restart-button" style="display: none">Restart</button>
+      <p id="feedback"></p>
+      <p id="score">Score: 0</p>
+      <p id="time"></p>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>

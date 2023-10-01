@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  margin: 0 auto; /* Center the quiz box horizontally */
+  width: 600px; /* Adjust as needed */
+  height: 400px; /* Adjust as needed */
+  position: relative;
+  /* Add a transition effect for all properties, duration of 0.3s, and ease timing function */
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: bold; /* Make the text bolder */
+}
+
+.question-container {
+  height: 200px; /* Set a fixed height for the question container */
+  overflow-y: auto; /* Add vertical scroll if content exceeds height */
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.options-list li:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004599;
+}
+
+#next-button {
+  display: block;
+  margin: 0 auto;
+}
+
+#restart-button {
+  display: block;
+  margin: 0 auto;
+}
+
+#skip-button {
+  display: block;
+  margin: 0 auto;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #1bcb96;
+  font-weight: bold; /* Make the text bolder */
+}
+
+#time {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /* Add the timer-animation, duration of 0.5s, infinite iterations */
+  animation: timer-animation 0.5s infinite;
+  color: rgb(194, 173, 57);
+  font-weight: bold; /* Make the text bolder */
+}
+
+@keyframes timer-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.result-bar {
+  background-color: #f0f0f0;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.fill {
+  height: 100%;
+  width: 0;
+  background-color: #007bff;
+}
+
+.label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.result-bar {
+  position: relative; /* Add this */
+  background-color: #f0f0f0;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.fill {
+  height: 100%;
+  width: 0;
+  background-color: #007bff;
+}
+
+.label {
+  position: absolute; /* Add this */
+  top: 50%; /* Add this */
+  left: 50%; /* Add this */
+  transform: translate(-50%, -50%); /* Add this */
+  width: 100%;
+  text-align: center;
+}
+
+#total-fill {
+  background-color: #808080; /* Grey */
+}
+
+#correct-fill {
+  background-color: #28a745; /* Green */
+}
+
+#incorrect-fill {
+  background-color: #dc3545; /* Red */
+}
+
+#skipped-fill {
+  background-color: #ffc107; /* Yellow */
+}
+
+#feedback span {
+  font-weight: bold; /* Make the text bolder */
+  font-size: 30px; /* Increase the font size */
+}
+
+#feedback {
+  margin-top: 30px; /* Add a top margin */
+}
