@@ -2,16 +2,6 @@
 
 This is a simple interactive quiz web application built using HTML, CSS, and JavaScript. It allows users to answer a series of questions, tracks their score, and displays the results in a graphical format.
 
-## Screenshots
-
-<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/9e560d6e-f6c2-4e98-8e0b-9ebb545fccd8" alt="Screenshot 1" width="600" >
-
-<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/a6061752-377f-4690-a98a-49f9341360f0" alt="Screenshot 2" width="600" >
-
-<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/427bc169-ae26-4deb-9aff-e5fc084018f9" alt="Screenshot 3" width="600" >
-
-<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/c7059e49-cd63-4c37-bbef-c19f3b7b03f2" alt="Screenshot 4" width="600" >
-
 ## Features
 
 - Display questions with multiple-choice options.
@@ -23,6 +13,7 @@ This is a simple interactive quiz web application built using HTML, CSS, and Jav
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
@@ -30,7 +21,30 @@ This is a simple interactive quiz web application built using HTML, CSS, and Jav
 
 ## Getting Started
 
-To get started, simply open the `index.html` file in a web browser. This will load the quiz interface, and users can begin answering questions.
+To get started, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/interactive-quiz.git  
+
+2. Navigate to the project directory:
+
+   cd interactive-quiz
+   
+4. Open the index.html file in a web browser. You can do this by double-clicking on the file or using your browser's "Open File" option.
+
+   The quiz interface will load in your web browser, and you can begin answering questions.
+
+## Screenshots
+
+<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/9e560d6e-f6c2-4e98-8e0b-9ebb545fccd8" alt="Screenshot 1" width="600" >
+
+<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/a6061752-377f-4690-a98a-49f9341360f0" alt="Screenshot 2" width="600" >
+
+<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/427bc169-ae26-4deb-9aff-e5fc084018f9" alt="Screenshot 3" width="600" >
+
+<img src="https://github.com/ano-ny-mous/Interactive-Quiz-Web-Application/assets/91519560/c7059e49-cd63-4c37-bbef-c19f3b7b03f2" alt="Screenshot 4" width="600" >
 
 ## Usage
 
